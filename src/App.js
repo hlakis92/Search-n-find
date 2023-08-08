@@ -107,6 +107,7 @@ function App() {
 <div className="background-container"> {/* The container div */}
       <div className="container mt-5">
         <div className="mb-4 text-center"><u><h1 className='title'>Scavenger Hunt Game</h1></u></div>
+        <div><p>Hint: When a single u makes becomes two</p></div>
         <div className="info-icon" onClick={handleInstructionsClick}>
             <FontAwesomeIcon icon={faInfoCircle} />
           </div>
