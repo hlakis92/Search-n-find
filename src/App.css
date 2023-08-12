@@ -63,7 +63,7 @@ body {
 .image-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; 
   margin-top: 20px;
 }
 
@@ -90,6 +90,7 @@ body {
 .dropzone-inner {
   width: 120px;
   height: 120px;
+  margin-left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,6 +111,7 @@ body {
   top: 5px;
   right: 5px;
   font-size: 12px;
+  border-radius: 50px;
 }
 
 /* Additional CSS for the modal */
@@ -181,6 +183,53 @@ button.btn-primary {
 
 /* Media Queries for iPhone 12 Pro (390px width) */
 @media (max-width: 392px) {
+
+  .sentence-line {
+    margin-bottom: 8px; /* Adjusted to create more space between lines */
+  }
+  
+  
+  .uploaded-image {
+    margin: 2px;
+    padding: 2px;
+    border-bottom: 1px solid black;
+  }
+
+  .uploaded-image img {
+    max-width: 50px; /* Adjusted to make images smaller */
+    max-height: 70px; /* Adjusted to make images smaller */
+  }
+
+  .dropzone-inner {
+    width: 50px; /* Adjusted to make dropzone smaller */
+    height: 70px; /* Adjusted to make dropzone smaller */
+  }
+
+  .dropzone-inner p {
+    font-size: 12px;
+  }
+
+  .proposal-sentence {
+    font-size: 20px; /* Adjusted to make the sentence font smaller */
+    margin-top: 10px;
+  }
+
+  button.btn-primary {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .btn-remove {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    font-size: 7px;
+  }
+}
+
+/* Media Queries for iPhone 12 Pro (390px width) */
+@media (max-width: 440px) {
+
   .sentence-line {
     margin-bottom: 8px; /* Adjusted to create more space between lines */
   }
@@ -224,7 +273,8 @@ button.btn-primary {
 }
 
 /* Media Queries for iPhone 12 Pro (390px width) */
-@media (max-width: 440px) {
+@media (max-width: 390px) {
+
   .sentence-line {
     margin-bottom: 8px; /* Adjusted to create more space between lines */
   }
