@@ -148,7 +148,7 @@ function App() {
           ))}
         </div>
         {uploadedImages.every((partImages) => partImages.every((img) => img !== undefined)) && (
-          <p className="proposal-sentence mt-3 text-center h3">Hawi, Will You Marry Me?</p>
+          <p className="proposal-sentence mt-3 text-center h3">Will You Marry Me?</p>
         )}
       </div>
     </div>
