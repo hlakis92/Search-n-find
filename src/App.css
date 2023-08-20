@@ -29,7 +29,7 @@ body {
 .title {
     text-align: center;
     font-family: 'Pacifico', cursive; /* Use the 'Pacifico' font from Google Fonts */
-    font-size: 35px;
+    font-size: 36px;
     margin-bottom: 20px;
     /* Gradient Background */
     background-image: linear-gradient(45deg, #ff1493, #00bfff); /* Customize the gradient colors */
