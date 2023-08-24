@@ -72,6 +72,16 @@ function App() {
     setShowModal(true);
   };
 
+  const [showHintModal, setShowHintModal] = useState(false);
+
+  const handleHintClick = () => {
+    setShowHintModal(true);
+  };
+
+  const handleCloseHintModal = () => {
+    setShowHintModal(false);
+  };
+
   return (
     <div className="container mt-5">
       {showModal && (
@@ -103,11 +113,25 @@ function App() {
           </button>
         </Modal>
       )}
+      
 
 <div className="background-container"> {/* The container div */}
       <div className="container mt-5">
         <div className="mb-4 text-center"><u><h1 className='title'>Scavenger Hunt Game</h1></u></div>
-        <div><p>Hint: What does the man on one knee say?</p></div>
+        <div>{/* Modal for the hint */}
+      <div className="hint-container">
+        <p className="hint" style={{color: "blue"}} onClick={handleHintClick}>
+         <b> <i>Click for Hint</i> </b>
+        </p>
+      </div>
+      <Modal isOpen={showHintModal} onRequestClose={handleCloseHintModal} style={customModalStyles}>
+        <h2>Hint</h2>
+        <p>A bent limb touching earth, displays of affection and a long-lasting commitment?</p>
+        <button onClick={handleCloseHintModal} className="btn btn-primary">
+          Close
+        </button>
+      </Modal>
+      </div>
         <div className="info-icon" onClick={handleInstructionsClick}>
             <FontAwesomeIcon icon={faInfoCircle} />
           </div>
