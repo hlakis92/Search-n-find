@@ -82,6 +82,11 @@ function App() {
     setShowHintModal(false);
   };
 
+  const handleClearAll = () => {
+    setUploadedImages(initialImages);
+    setShowFinalMessage(false);
+  };
+
   return (
     <div className="container mt-5">
       {showModal && (
@@ -119,6 +124,10 @@ function App() {
       <div className="container mt-5">
         <div className="mb-4 text-center"><u><h1 className='title'>Scavenger Hunt Game</h1></u></div>
         <div>{/* Modal for the hint */}
+         {/* Clear All button */}
+      <button onClick={handleClearAll} className="btn btn-danger clear-all-button">
+        Clear All
+      </button>
       <div className="hint-container">
         <p className="hint" style={{color: "blue"}} onClick={handleHintClick}>
          <b> <i>Click for Hint</i> </b>
