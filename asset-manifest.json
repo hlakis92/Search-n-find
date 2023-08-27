@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Search-n-find/static/css/main.854dcc79.css",
+    "main.js": "/Search-n-find/static/js/main.baee27f5.js",
+    "static/js/787.5a7b49aa.chunk.js": "/Search-n-find/static/js/787.5a7b49aa.chunk.js",
+    "static/media/SummerPeonies.jpg": "/Search-n-find/static/media/SummerPeonies.9420982259e5eb65326c.jpg",
+    "index.html": "/Search-n-find/index.html",
+    "main.854dcc79.css.map": "/Search-n-find/static/css/main.854dcc79.css.map",
+    "main.baee27f5.js.map": "/Search-n-find/static/js/main.baee27f5.js.map",
+    "787.5a7b49aa.chunk.js.map": "/Search-n-find/static/js/787.5a7b49aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.854dcc79.css",
+    "static/js/main.baee27f5.js"
+  ]
+}
