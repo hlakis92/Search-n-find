@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Search-n-find/static/css/main.854dcc79.css",
-    "main.js": "/Search-n-find/static/js/main.baee27f5.js",
-    "static/js/787.5a7b49aa.chunk.js": "/Search-n-find/static/js/787.5a7b49aa.chunk.js",
-    "static/media/SummerPeonies.jpg": "/Search-n-find/static/media/SummerPeonies.9420982259e5eb65326c.jpg",
-    "index.html": "/Search-n-find/index.html",
-    "main.854dcc79.css.map": "/Search-n-find/static/css/main.854dcc79.css.map",
-    "main.baee27f5.js.map": "/Search-n-find/static/js/main.baee27f5.js.map",
-    "787.5a7b49aa.chunk.js.map": "/Search-n-find/static/js/787.5a7b49aa.chunk.js.map"
+    "main.css": "/scavhunter.com/static/css/main.4c27a8e9.css",
+    "main.js": "/scavhunter.com/static/js/main.d1522c59.js",
+    "static/js/787.5a7b49aa.chunk.js": "/scavhunter.com/static/js/787.5a7b49aa.chunk.js",
+    "static/media/SummerPeonies.jpg": "/scavhunter.com/static/media/SummerPeonies.9420982259e5eb65326c.jpg",
+    "index.html": "/scavhunter.com/index.html",
+    "main.4c27a8e9.css.map": "/scavhunter.com/static/css/main.4c27a8e9.css.map",
+    "main.d1522c59.js.map": "/scavhunter.com/static/js/main.d1522c59.js.map",
+    "787.5a7b49aa.chunk.js.map": "/scavhunter.com/static/js/787.5a7b49aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.854dcc79.css",
-    "static/js/main.baee27f5.js"
+    "static/css/main.4c27a8e9.css",
+    "static/js/main.d1522c59.js"
   ]
 }
