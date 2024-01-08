@@ -135,7 +135,7 @@ function App() {
       </div>
       <Modal isOpen={showHintModal} onRequestClose={handleCloseHintModal} style={customModalStyles}>
         <h2>Hint</h2>
-        <p>A bent limb touching earth, displays of affection and a long-lasting commitment?</p>
+        <p>Seek beneath where love and nature intertwine, and where promises are etched in time.</p>
         <button onClick={handleCloseHintModal} className="btn btn-primary">
           Close
         </button>
